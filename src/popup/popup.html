@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>QR Detect</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main class="panel">
+      <div class="mark" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <p class="eyebrow">На странице</p>
+      <h1>QR Detect</h1>
+      <button type="button" id="detect">Детект QR</button>
+      <p id="status" class="status" hidden></p>
+      <ul id="results" class="results"></ul>
+      <img id="preview" class="preview" alt="Скриншот страницы" hidden />
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>
