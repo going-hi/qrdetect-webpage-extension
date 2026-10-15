@@ -1,0 +1,1 @@
+# qrdetect-webpage-extension
